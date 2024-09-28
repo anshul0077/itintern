@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    transition: all ease 0.5s ;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#page1{
+    height: 100%;
+    width: 100%;
+    
+    background:url("./images/Netflix.jpg");
+}
+#main-page1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.671);
+}
+#main-page1>nav{
+    padding-top: 2vw;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#main-page1>nav>.logo{
+    width: 15%;
+    /* background-color: aqua; */
+}
+#main-page1>nav>.logo>a>img{
+    height: 100%;
+    width: 100%;
+}
+#main-page1>nav>.option{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    position: relative;
+}
+#main-page1>nav>.option a > button{
+    background-color: red;
+    height: 20%;
+    font-size: 1.2vw;
+    border-radius: 5px;
+    padding: 0.5vw 1.5vw;
+    border: none;
+    color: white;
+    
+}
+#main-page1>nav>.option>button:hover{
+    background-color: rgb(182, 4, 4);
+   
+
+}
+#main-page1>nav>.option>i{
+    position: absolute;
+    left: 2.4%;
+}
+
+#main-page1>nav>.option>select{
+    background-color: transparent;
+    height: 20%;
+    font-size: 1.2vw;
+    border-radius: 5px;
+    padding: 0.5vw 1.5vw;
+    font-weight: 500;
+    border: 1px solid rgba(255, 255, 255, 0.452);
+    color: white;
+}
+#main-page1>.content{
+    margin-top: -100px;
+    padding: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 70%;
+    width: 60%;
+    color: white;
+    /* background-color: aqua; */
+    padding-bottom: 5vw;
+}
+#main-page1>.content>h1{
+    align-items: center;
+    text-align: center;
+    font-size: 4vw;
+    color: white;
+    width: 70%;
+}
+#main-page1>.content>.text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+#main-page1>.content>.info{
+    display: flex;
+    height: 30%;
+    /* margin-top: -100px; */
+    width: 80%;
+    align-items: center;
+    gap: 10px;
+
+}
+#main-page1>.content>.text>p:nth-child(1){
+    font-size: 1.3vw;
+}
+#main-page1>.content>.text>p:nth-child(2){
+    font-size: 1.1vw;
+    word-spacing: -1px;
+}
+#page2{
+    position: relative;
+    height: 70%;
+    width: 100%;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    padding: 10vw;
+    justify-content: space-between;
+}
+
+.n-pages h2{
+    font-size: 3vw;
+    margin-bottom: 1.5vw;
+}
+.n-pages p{
+    font-size: 1.5vw;
+}
+
+
+
+#page3{
+    height: 70%;
+    width: 100%;
+    /* background-color: rgb(213, 71, 71); */
+    display: flex;
+    align-items: center;
+    padding: 10vw;
+    justify-content: space-between;
+}
+#page4{
+    height: 70%;
+    width: 100%;
+    /* background-color: rgb(80, 58, 58); */
+    display: flex;
+    align-items: center;
+    padding: 10vw;
+ position: relative;
+    justify-content: space-between;
+}
+
+
+#page5{
+    height: 70%;
+    width: 100%;
+    border-bottom: 6px solid grey;
+    /* background-color: rgb(53, 49, 49); */
+    display: flex;
+    align-items: center;
+    padding: 10vw;
+    justify-content: space-between;
+}
+.n-pages{
+    border-top: 6px solid grey;
+    background-color: black;
+}
+
+.info>input{
+    height: 45%;
+    width: 70%;
+    background-color:rgba(0, 0, 0, 0.425);
+    border:1px solid grey;
+    border-radius: 5px;
+    padding-left: 2vw;
+
+}
+.info>input::placeholder{
+    font-size: 1.2vw;
+    color: rgb(214, 215, 215);
+}
+option {
+    background-color:rgba(0, 0, 0, 0.84);
+}
+.info>button{
+    height: 45%;
+    width: 40%;
+    background-color:red;
+    border:none;
+    font-size: 1.5vw;
+    border-radius: 5px;
+    color: white;
+   
+}
+#fnq{
+ min-height: 80%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    padding:  3vw 10vw;
+
+}
+#fnq>h2{
+    font-size: 1.7vw;
+}
+ #fnq ul {
+    
+  height: 100%;
+    width: 100%;
+    margin:1rem 0 ;
+}
+#fnq ul li{
+    list-style: none;
+    cursor: pointer;
+    margin: 5px 0;
+    
+    
+}
+.page2-left >.image{
+    height: 70%;
+    width: 80%;
+    position: relative;
+}
+.page2-left >.image >img{
+    position: absolute;
+    margin-left: 2vw;
+    top: -33%;
+    right: -9%;
+height: 175%;
+}
+.page2-left >.image >video{
+width: 68%;
+margin-left: 7vw;
+
+}
+.page4-left >.image{
+    height: 70%;
+    width: 80%;
+    position: relative;
+}
+.page4-left >.image >img{
+    position: absolute;
+    margin-left: 2vw;
+    top: -15%;
+height: 200%;
+}
+.page4-left >.image >video{
+width: 68%;
+margin-left: 7vw;
+
+}
+
+#fnq  ul li details summary{
+height: 5vw;
+font-size: 1.8vw;
+    display: flex;
+    justify-content: space-between;
+    padding:1rem;
+    background-color:  rgb(55, 55, 55);
+    width: 100%;
+    list-style: none;
+}
+#fnq ul li details summary::after{
+    content: "+";
+}
+
+
+#fnq ul li details[open] summary::after{
+    transform: rotate(45deg);
+}
+
+
+#fnq ul li details  p{
+    border-top: 5px solid rgb(0, 0, 0);
+  
+    font-size: 1.8vw;
+}
+#fnq  ul li details summary:hover{
+background-color: rgb(116, 116, 116);
+}
+#fnq ul li details[open] p
+{
+
+    background-color: rgb(56, 56, 56);
+    padding:1rem;
+    
+}
+#fnqul li details[open] summary{
+    border: 0px;
+    background-color: rgb(56, 56, 56);
+    
+}
+
+.email-section{
+    height:30%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.email-section .info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: inherit;
+    width: 70%;
+}
+.email-section>p{
+    margin-bottom: 1vw;
+}
+.email-section>.info> input{
+    height: 90%;
+    width: 50%;
+}
+.email-section>.info> button{
+    height: 80%;
+    width: 20%;
+}
+footer{
+    min-height:50% ;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    padding: 2vw 10vw;
+
+}
+footer p{
+font-size: 1.1vw;
+color: rgb(146, 146, 146);
+
+}
+footer a{
+    color: rgb(146, 146, 146);
+}
+button:hover{
+    background-color: rgb(162, 0, 0);
+}
+.footer-items{
+    margin-top: 3vw;
+   font-size: 1.1vw;
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+    
+}
+.footer-items>.items>a{
+    color: rgb(146, 146, 146);
+}
+footer select{
+    background-color: transparent;
+    height: 15%;
+    font-size: 1.2vw;
+    border-radius: 5px;
+    padding: 0.4vw 1.5vw;
+    font-weight: 500;
+    border: 1px solid rgba(255, 255, 255, 0.452);
+    color: white;
+}
+.footer-last{
+    gap: 2.4vw;
+    margin-top: 5vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    color: rgb(170, 170, 170);
+   position: relative;
+}
+.footer-last>i{
+    position: absolute;
+    top: 10%;
+    left: 0.7%;
+}
+.N-pages{
+    height: 70%;
+    width: 100%;
+    background-color: aqua;
+}
+
